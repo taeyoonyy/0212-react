@@ -2,7 +2,9 @@ import { Fragment } from "react"
 
 const Main = () => {
   return (
-    <Fragment></Fragment>
+    <Fragment>
+      <h1>MAIN PAGE</h1>
+    </Fragment>
   )
 }
 
