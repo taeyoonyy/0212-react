@@ -1,10 +1,11 @@
-import Main from "./pages/Main";
+import { Route, Switch } from "react-router-dom";
+import Login from "./pages/Login";
 
 
 function App() {
   return (
     <div>
-      <Main />
+      <Login />
     </div>
   );
 }
