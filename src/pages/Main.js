@@ -26,7 +26,8 @@ const Main = () => {
   }
 
   const writtenTodoList = todoList.map((item) => (
-    <li>{item}</li>
+    <li>{item}
+    <button>Done</button></li>
   ))
 
 
