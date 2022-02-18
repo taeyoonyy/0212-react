@@ -25,6 +25,10 @@ const Login = () => {
     }
   };
 
+  const joinHandler = (event) => {
+    history.push('/join')
+  }
+
   const errorHandler = () => {
     setError(null);
   }
@@ -38,6 +42,7 @@ const Login = () => {
           <label>NAME</label>
           <input id="name" type="text" ref={nameInputRef}></input>
           <button>Login</button>
+          <button type="button" onClick={joinHandler}>Join</button>
         </form>
       </div>
     </React.Fragment>
