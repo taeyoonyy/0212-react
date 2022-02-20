@@ -6,7 +6,7 @@ import classes from "./Main.module.css";
 import Button from "../components/ui/Button";
 
 const Main = () => {
-  const userCtx = useContext(UserContext);
+  // const userCtx = useContext(UserContext);
   const [modalOpen, setModalOpen] = useState(false);
   const [todoList, setTodoList] = useState([]);
 
@@ -34,7 +34,8 @@ const Main = () => {
 
   return (
     <Fragment>
-      <MainNavigation user={userCtx.user} />
+      {/* <MainNavigation user={userCtx.user} /> */}
+      <MainNavigation />
       <h1>MAIN PAGE</h1>
       <Button onClick={openModalHandler}>Add Data</Button>
       <Modal
